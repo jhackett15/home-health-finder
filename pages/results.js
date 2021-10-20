@@ -1,11 +1,11 @@
-export const getStaticProps = async () => {
-    const res = await fetch(`http://localhost:3000/api/search?term=Home`)
-    const data = await res.json();
+//export const getStaticProps = async () => {
+  //  const res = await fetch(`http://localhost:3000/api/search?term=Home`)
+  //  const data = await res.json();
 
-    return {
-        props: { providers: data }
-    }
-}
+ //   return {
+//        props: { providers: data }
+ //   }
+//}
 
 export default function Results({ providers }) {
     
